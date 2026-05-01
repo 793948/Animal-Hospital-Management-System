@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+<html>
+<head>
+<title>Result</title>
+<link rel="stylesheet" href="{{ url_for('static', filename='style.css') }}">
+</head>
+
+<body>
+
+<div class="container">
+<h2>AI Detected Injury: {{ injury }}</h2>
+
+<h3>Recommended Doctor</h3>
+<p>Name: {{ doctor.name }}</p>
+<p>Specialist: {{ doctor.specialist }}</p>
+<p>Hospital: {{ doctor.hospital }}</p>
+<p>Location: {{ doctor.location }}</p>
+
+<a href="/">Go Back</a>
+</div>
+
+</body>
+</html>

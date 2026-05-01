@@ -1,0 +1,20 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Upload Injury</title>
+    <link rel="stylesheet" href="/static/style.css">
+</head>
+<body class="loginbg">
+
+<div class="loginbox">
+    <h2>Upload Injured Animal Image 🐶</h2>
+
+    <form action="/predict" method="POST" enctype="multipart/form-data">
+        <input type="file" name="image" required>
+        <button type="submit">Analyze Injury</button>
+    </form>
+
+</div>
+
+</body>
+</html>

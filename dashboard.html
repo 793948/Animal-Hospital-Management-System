@@ -1,0 +1,23 @@
+<h2>Rescue Cases Dashboard</h2>
+
+<table border="1">
+
+<tr>
+<th>ID</th>
+<th>Animal</th>
+<th>Location</th>
+<th>Photo</th>
+</tr>
+
+{% for case in cases %}
+
+<tr>
+<td>{{case[0]}}</td>
+<td>{{case[1]}}</td>
+<td>{{case[2]}}</td>
+<td>{{case[3]}}</td>
+</tr>
+
+{% endfor %}
+
+</table>

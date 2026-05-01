@@ -1,0 +1,21 @@
+<!DOCTYPE html>
+<html>
+<head>
+<title>Animal Hospital AI</title>
+<link rel="stylesheet" href="{{ url_for('static', filename='style.css') }}">
+</head>
+
+<body>
+
+<div class="container">
+<h1>🐾 Animal Hospital Management System</h1>
+<h3>Upload Injured Animal Image</h3>
+
+<form action="/predict" method="post" enctype="multipart/form-data">
+<input type="file" name="image" required>
+<button type="submit">Analyze Injury</button>
+</form>
+</div>
+
+</body>
+</html>

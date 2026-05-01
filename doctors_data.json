@@ -1,0 +1,20 @@
+[
+    {
+        "name": "Dr. Sharma",
+        "specialist": "Fracture Specialist",
+        "hospital": "Animal Care Center",
+        "location": "Haldwani"
+    },
+    {
+        "name": "Dr. Mehta",
+        "specialist": "Wound Specialist",
+        "hospital": "Pet Life Hospital",
+        "location": "Haldwani"
+    },
+    {
+        "name": "Dr. Khan",
+        "specialist": "Skin Specialist",
+        "hospital": "Animal Health Clinic",
+        "location": "Haldwani"
+    }
+]

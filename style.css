@@ -1,0 +1,34 @@
+body {
+    margin: 0;
+    font-family: Arial, sans-serif;
+}
+
+.loginbg {
+    background: url("https://thumbs.dreamstime.com/b/pet-group-concept-as-dogs-cats-hamster-budgie-gathered-together-as-symbol-veterinary-care-support-pets-store-53950594.jpg") no-repeat center;
+    background-size: cover;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.loginbox {
+    background: rgba(255,255,255,0.9);
+    padding: 40px;
+    border-radius: 10px;
+    text-align: center;
+}
+
+input {
+    width: 100%;
+    padding: 10px;
+    margin: 10px 0;
+}
+
+button {
+    padding: 10px 20px;
+    background: green;
+    color: white;
+    border: none;
+    cursor: pointer;
+}
